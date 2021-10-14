@@ -1,0 +1,14 @@
+[package]
+edition = "2018"
+name = "cp_esap_settings"
+version = "0.1.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+dotenv = "0.15.0"
+reqwest = {version = "0.11.4", features = ["json", "blocking"]}
+serde = {version = "1.0", features = ["derive"]}
+serde_json = "1.0.66"
+structopt = "0.3.23"
+tokio = {version = "1.9.0", features = ["full"]}
